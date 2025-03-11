@@ -1,0 +1,71 @@
+.weather
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+img
+{
+    height:150px;
+    width:100px;
+    
+    
+   
+}
+body
+{
+    background-color:#222;
+}
+.container
+{
+    background-color:#ebfffc;
+    height:80vh;
+    width:50vh;
+    margin-left:80vh;
+    margin-top:20px;
+    border-radius: 2rem;
+    
+
+}
+input{
+    font-size:15px;
+    font-family: "Poppins";
+    margin-top: 20px;
+    margin-left:20px;
+    border-radius: 2rem;
+    color:black;
+    border:5px solid white;
+    width:76%;
+
+    
+}
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.button{
+    
+    background-color: white;  
+    border: 2px solid #ccc;  
+    border-radius: 50%;  
+    height:40px;
+    width:40px;
+    margin-top:20px;
+     cursor:pointer;
+}
+.button:hover{
+    background-color: lightseagreen;
+
+}
+.weather-container {
+    width: 300px;
+    background-color: #3498db;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+}
